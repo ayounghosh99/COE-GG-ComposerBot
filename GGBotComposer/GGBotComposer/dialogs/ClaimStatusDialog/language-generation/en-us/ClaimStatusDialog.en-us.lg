@@ -1,0 +1,34 @@
+[import](common.lg)
+
+# TextInput_Prompt_TvTpZC()
+[Activity
+    Text = ${TextInput_Prompt_TvTpZC_text()}
+    Speak = "ayoun" 
+]
+
+
+# TextInput_Prompt_TvTpZC_text()
+- Please enter your Claim Number
+- What is your Claim Number?
+# SendActivity_UjBQFY()
+[Activity
+    Text = ${SendActivity_UjBQFY_text()}
+]
+
+# SendActivity_UjBQFY_text()
+- ```Thank you :) 
+Please give me a moment while i fetch you the status of claim ${dialog.claimNumber}```
+# TextInput_UnrecognizedPrompt_TvTpZC()
+[Activity
+    Text = ${TextInput_UnrecognizedPrompt_TvTpZC_text()}
+]
+
+# TextInput_UnrecognizedPrompt_TvTpZC_text()
+- Sorry, I do not understand '${this.value}'. Please specify a 5 digit Claim Number in the format 12345.
+# TextInput_InvalidPrompt_TvTpZC()
+[Activity
+    Text = ${TextInput_InvalidPrompt_TvTpZC_text()}
+]
+
+# TextInput_InvalidPrompt_TvTpZC_text()
+- Sorry, '${this.value}' is not valid.  I'm looking for a 5 digit number as Claim Number. Please specify a 5 digit Claim Number in the format 12345.

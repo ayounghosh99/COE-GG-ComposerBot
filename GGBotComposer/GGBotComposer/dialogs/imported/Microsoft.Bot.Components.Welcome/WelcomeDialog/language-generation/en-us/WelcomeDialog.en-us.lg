@@ -1,0 +1,45 @@
+[import](common.lg)
+
+# SendActivity_WelcomeReturningUser()
+[Activity
+    Text = ${SendActivity_WelcomeReturningUser_text()}
+]
+
+# SendActivity_WelcomeReturningUser_text()
+- 🖐️ Welcome back! How can I help you today?
+- 🖐️ Hello again! What can I help with?
+- 🖐️ Good to see you again. What do you want to do today?
+- 🖐️ Hey, there! Let's get started.
+- 🖐️ Hello again! How can I help?
+
+# SendActivity_WelcomeNewUser()
+[Activity
+    Text = ${SendActivity_WelcomeNewUser_text()}
+]
+
+# SendActivity_WelcomeNewUser_text()
+- 🖐️ Hey, there! How can I help you today?
+- 🖐️ Hi! How can I help?
+- 🖐️ Hello! What do you want to do today?
+
+> Imported: ecb31044e0e5c0b54f49870e6872f158
+# SendActivity_zC4CnO()
+[Activity
+    Text = ${SendActivity_zC4CnO_text()}
+    Speak = ${SendActivity_zC4CnO_speak()}
+    SuggestedActions = Claim Status | Register a Claim
+]
+
+# SendActivity_zC4CnO_text()
+- Welcome to GG Bot. How can i help you?
+- I am the GG Virtual Assistant. How  can I help you today?
+- This is your virtual assistant speaking. How may i help you?
+# SendActivity_zC4CnO_speak()
+- Hi. Thanks for calling GG. Just so you know we record calls to help improve our service. In just a few words, can you tell me how we can help you today?
+# SendActivity_iQghyt()
+- IF:  ${getTimeOfDay(addHours(utcNow(),1)) == 'morning'}
+    - Good Morning 
+- ELSEIF: ${getTimeOfDay(addHours(utcNow(), 1)) == 'afternoon'}
+    - Good Afternoon 
+- ELSE:
+    - Good Evening 

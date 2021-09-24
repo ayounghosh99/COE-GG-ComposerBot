@@ -1,0 +1,250 @@
+# None
+- where is my car?
+- I want to order a pizza
+- place an item on hold
+- Is it going to rain?
+- turn on the lights
+- check my account balance
+- do unicorns really exist
+- duck
+
+# ClaimStatus
+- Claim Status
+- check claim
+- check claim {@ClaimNumbers=clm78997}
+- check claim {@ClaimNumbers=clm8799789}
+- check my claim {@ClaimNumbers=clm786877} status
+- check my claim number
+- check my claim number {@ClaimNumbers=clm67756}
+- check my claim status
+- check my cliam
+- check my cliam {@ClaimNumbers=clm88768}
+- claim {@ClaimNumbers=clm788988} status
+- claim {@ClaimNumbers=clm8798} track
+- claim {@ClaimNumbers=clm947984} details
+- claim {@ClaimNumbers=clm97978} check
+- claim details
+- claim details for clm8798789
+- claim details of {@ClaimNumbers=clm897809}
+- claim {@ClaimNumbers=g7f7f}
+- claim number {@ClaimNumbers=clm76667} status
+- claim number status
+- claim status
+- claim track
+- current status of claim {@ClaimNumbers=clm123456}
+- details of claim
+- details of claim {@ClaimNumbers=clm87686}
+- details of claim number {@ClaimNumbers=clm987797}
+- details of my claim
+- details of my claim {@ClaimNumbers=clm123456}
+- details of my claim {@ClaimNumbers=clm7886}
+- find claim status
+- how is my claim doing
+- i have a claim of number {@ClaimNumbers=clm12345}. can you tell the status of my claim?
+- i want ti see the claim of {@ClaimNumbers=i76fi7}
+- i want to check my claim
+- i want to check my claim {@ClaimNumbers=clm242424}
+- i want to know the claim status of all my claims
+- i want to look my claim
+- i want to look my claim {@ClaimNumbers=clm23241}
+- i want to see claim
+- i want to see my claim
+- i want to see my claim {@ClaimNumbers=clm241241}
+- i want to track claim {@ClaimNumbers=clm23124}
+- i want to track my claim
+- i want to track my claim {@ClaimNumbers=clm2412}
+- i want to verify claim
+- i want to verify claim {@ClaimNumbers=clm21421}
+- i want to verify my claim
+- i want to verify my claim {@ClaimNumbers=clm241224}
+- i want to view claim {@ClaimNumbers=clm2424}
+- i want to view my claim
+- i want to view my claim {@ClaimNumbers=clm23124}
+- information of claim
+- know claim {@ClaimNumbers=clm829837} status
+- know claim status
+- know my claim
+- know my claim {@ClaimNumbers=clm8989}
+- know my claim number
+- know my claim number {@ClaimNumbers=clm424234}
+- look claim
+- look claim {@ClaimNumbers=clm67765}
+- look my claim
+- look my claim {@ClaimNumbers=clm677656} status
+- look my claim {@ClaimNumbers=clm78869}
+- look my claim number
+- look my claim number {@ClaimNumbers=clm867786}
+- look my claim status
+- more data about claims
+- my claim status
+- request claim
+- request claim {@ClaimNumbers=clm788676}
+- request claim {@ClaimNumbers=clm887787} status
+- request claim number
+- request claim number {@ClaimNumbers=clm787999}
+- request claim status
+- request my claim {@ClaimNumbers=clm88334} status
+- request my claim number
+- request my claim number {@ClaimNumbers=clm35353}
+- request my claim status
+- see my claim
+- see my claim {@ClaimNumbers=clm878767} status
+- see my claim {@ClaimNumbers=clm89787}
+- see my claim number
+- see my claim number {@ClaimNumbers=clm987899}
+- see my claim status
+- send claim
+- send claim {@ClaimNumbers=clm89789}
+- send my claim
+- send my claim {@ClaimNumbers=clm78788}
+- send my claim {@ClaimNumbers=clm87786} status
+- send my claim number
+- send my claim number {@ClaimNumbers=clm76557}
+- send my claim status
+- share claim
+- share claim {@ClaimNumbers=clm333}
+- share my claim
+- share my claim {@ClaimNumbers=clm33535}
+- share my claim number
+- share my claim number {@ClaimNumbers=clm342442}
+- share my claim status
+- share my claim status {@ClaimNumbers=clm35352}
+- shoe my claim
+- show claim
+- show claim {@ClaimNumbers=clm78667}
+- show claim status
+- show me claim {@ClaimNumbers=ag68668}
+- show my claim
+- show my claim {@ClaimNumbers=clm787787}
+- show my claim {@ClaimNumbers=clm87878} status
+- show my claim number
+- show my claim number clm676767
+- show my claim status
+- status claim
+- status if claim
+- status of claim
+- status of claim {@ClaimNumbers=clm78998}
+- status of claim number
+- status of claim number {@ClaimNumbers=clm787868}
+- status of cliam
+- stauts of claim
+- track claim
+- track claim {@ClaimNumbers=clm67876}
+- track claim {@ClaimNumbers=i87i8}
+- track my claim
+- track my claim {@ClaimNumbers=clm76876} status
+- track my claim {@ClaimNumbers=clm86869}
+- track my claim number
+- track my claim number {@ClaimNumbers=clm688687}
+- track my claim status
+- track my cliam
+- track my cliam {@ClaimNumbers=clm88779}
+- veiw claim status
+- verify claim
+- verify claim {@ClaimNumbers=clm8666}
+- verify claim number
+- verify claim number {@ClaimNumbers=clm786787}
+- verify claim status
+- verify claim status {@ClaimNumbers=clm68709}
+- verify my claim {@ClaimNumbers=clm8776868} status
+- verify my claim status
+- view claim
+- view claim {@ClaimNumbers=8ifi6f7}
+- view claim {@ClaimNumbers=clm7866787} status
+- view claim {@ClaimNumbers=clm8678678}
+- view claim number
+- view claim number {@ClaimNumbers=clm809890}
+- view cliam status
+- view my claim
+- view my claim {@ClaimNumbers=clm76989} status
+- view my claim {@ClaimNumbers=clm8977776}
+- view my claim number
+- view my claim number {@ClaimNumbers=clm686786}
+- view status claim
+- view status claim {@ClaimNumbers=clm878978}
+- watch claim status
+- what claim status
+
+# RegisterClaim
+- add a claim
+- add a claim {@ClaimNumbers=clm123456}
+- add a new claim
+- add a new claim {@ClaimNumbers=clm123456}
+- add claim
+- extend my warranty for claim clm123456
+- i want to add a claim
+- i want to add a claim {@ClaimNumbers=clm134567}
+- i want to add a new claim
+- i want to add a new claim {@ClaimNumbers=clm412455}
+- i want to create a new claim
+- i want to initiate a claim
+- i want to initiate a claim {@ClaimNumbers=clm123456}
+- i want to initiate a new claim
+- i want to initiate a new claim {@ClaimNumbers=clm123456}
+- i want to process a claim
+- i want to process a claim {@ClaimNumbers=clm123456}
+- i want to process a new claim
+- i want to process a new claim {@ClaimNumbers=clm123456}
+- i want to register a claim
+- i want to register a claim {@ClaimNumbers=clm135678}
+- i want to register a claim {@ClaimNumbers=clm343245}
+- i want to register a new claim
+- i want to register a new claim {@ClaimNumbers=clm134567}
+- i want to register a new claim {@ClaimNumbers=clm345678}
+- i want to submit a claim
+- i want to submit a claim {@ClaimNumbers=clm123456}
+- i want to submit a new claim
+- i want to submit a new claim {@ClaimNumbers=clm123456}
+- i would like to add a claim
+- i would like to add a claim {@ClaimNumbers=clm123456}
+- i would like to add a new claim
+- i would like to add a new claim {@ClaimNumbers=clm313456}
+- i would like to initiate a claim
+- i would like to initiate a claim {@ClaimNumbers=clm123456}
+- i would like to initiate a new claim
+- i would like to initiate a new claim {@ClaimNumbers=clm123456}
+- i would like to process a claim
+- i would like to process a claim {@ClaimNumbers=clm123456}
+- i would like to process a new claim
+- i would like to process a new claim {@ClaimNumbers=clm123456}
+- i would like to register a claim
+- i would like to register a claim {@ClaimNumbers=clm123456}
+- i would like to register a claim {@ClaimNumbers=clm245678}
+- i would like to register a new claim
+- i would like to register a new claim {@ClaimNumbers=clm123456}
+- i would like to register a new claim {@ClaimNumbers=clm242342}
+- i would like to submit a claim
+- i would like to submit a claim {@ClaimNumbers=clm123456}
+- i would like to submit a new claim
+- i would like to submit a new claim {@ClaimNumbers=clm123456}
+- initiate a claim
+- initiate a claim {@ClaimNumbers=clm123456}
+- initiate a new claim
+- initiate a new claim {@ClaimNumbers=clm123456}
+- intitate a claim {@ClaimNumbers=clm123456}
+- mobile number: 9087654321 extend warranty
+- new claim
+- policy number cls123456 extend it's warranty
+- process a claim
+- process a claim {@ClaimNumbers=clm123456}
+- process a new claim
+- process a new claim {@ClaimNumbers=clm12345}
+- register a claim
+- register a claim {@ClaimNumbers=clm832437}
+- register a claim for policy number clm123456
+- register a health claim
+- register a health claim with id hlt123456
+- register a new claim
+- register a new claim {@ClaimNumbers=clm244556}
+- register a new claim for id - hlt123456 and mobile: 9999999999.
+- register claim
+- register claim {@ClaimNumbers=clm8799987}
+- register new claim
+- register new claim {@ClaimNumbers=clm242567}
+- submit a claim
+- submit a claim {@ClaimNumbers=clm123456}
+- submit a new claim
+- submit a new claim {@ClaimNumbers=clm123456}
+- submit claim
+- submit claim clm123456
+- want to create a new claim

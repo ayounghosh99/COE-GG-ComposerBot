@@ -1,0 +1,61 @@
+{
+  "$kind": "Microsoft.AdaptiveDialog",
+  "$designer": {
+    "id": "snNoWx",
+    "name": "ClaimStatusDialog",
+    "comment": ""
+  },
+  "autoEndDialog": true,
+  "defaultResultProperty": "dialog.result",
+  "triggers": [
+    {
+      "$kind": "Microsoft.OnBeginDialog",
+      "$designer": {
+        "name": "BeginDialog",
+        "description": "",
+        "id": "8Cxf5X"
+      },
+      "actions": [
+        {
+          "$kind": "Microsoft.TextInput",
+          "$designer": {
+            "id": "TvTpZC"
+          },
+          "disabled": false,
+          "maxTurnCount": 3,
+          "alwaysPrompt": false,
+          "allowInterruptions": false,
+          "unrecognizedPrompt": "${TextInput_UnrecognizedPrompt_TvTpZC()}",
+          "invalidPrompt": "${TextInput_InvalidPrompt_TvTpZC()}",
+          "prompt": "${TextInput_Prompt_TvTpZC()}",
+          "property": "dialog.claimNumber ",
+          "validations": [
+            "length(this.value) == 5"
+          ],
+          "defaultValue": "12345",
+          "outputFormat": "=trim(this.value)"
+        },
+        {
+          "$kind": "Microsoft.SendActivity",
+          "$designer": {
+            "id": "UjBQFY"
+          },
+          "activity": "${SendActivity_UjBQFY()}"
+        },
+        {
+          "$kind": "Microsoft.EndDialog",
+          "$designer": {
+            "id": "yZ6uud"
+          }
+        }
+      ]
+    }
+  ],
+  "generator": "ClaimStatusDialog.lg",
+  "recognizer": {
+    "$kind": "Microsoft.RegexRecognizer",
+    "intents": []
+  },
+  "id": "ClaimStatusDialog",
+  "attachmentDialog": "this is attachment dialog"
+}

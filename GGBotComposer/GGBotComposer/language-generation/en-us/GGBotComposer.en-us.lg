@@ -1,0 +1,25 @@
+[import](common.lg)
+
+
+# SendActivity_hRlDCZ()
+[Activity
+    Text = ${SendActivity_hRlDCZ_text()}
+]
+
+# SendActivity_hRlDCZ_text()
+- Register Claim Successfull!!! ${dialog.api_response}
+# SendActivity_6OMf4S()
+[Activity
+    Text = ${SendActivity_6OMf4S_text()}
+]
+
+# SendActivity_6OMf4S_text()
+- Could not register a claim :( ${dialog.api_response}
+# TextInput_Prompt_abv4Ss()
+[Activity
+    Text = ${expandText(@answer)}
+    SuggestedActions = ${foreach(turn.recognized.answers[0].context.prompts, x, x.displayText)}
+]
+
+# SendActivity_3uBssN()
+- ${expandText(@answer)}

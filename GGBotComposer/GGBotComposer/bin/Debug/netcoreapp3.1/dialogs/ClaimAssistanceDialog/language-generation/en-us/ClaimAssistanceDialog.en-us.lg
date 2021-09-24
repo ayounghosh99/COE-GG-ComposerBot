@@ -1,0 +1,11 @@
+[import](common.lg)
+
+# SendActivity_uitfPy()
+[Activity
+    Text = ${SendActivity_uitfPy_text()}
+    SuggestedActions = Register Claim | Check Claim Status | Go to Main Menu | Not Satisfied! Raise a Complaint
+]
+
+# SendActivity_uitfPy_text()
+- I can help you with the following Claim related services :
+- Please select an option :

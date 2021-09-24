@@ -1,0 +1,8 @@
+{
+  "GGBotComposer.en-us": {
+    "rootDialog": true,
+    "triggers": {
+      "RegisterClaim": ""
+    }
+  }
+}

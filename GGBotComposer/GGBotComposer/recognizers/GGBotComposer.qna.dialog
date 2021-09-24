@@ -1,0 +1,8 @@
+{
+  "$kind": "Microsoft.MultiLanguageRecognizer",
+  "id": "QnA_GGBotComposer",
+  "recognizers": {
+    "en-us": "GGBotComposer.en-us.qna",
+    "": "GGBotComposer.en-us.qna"
+  }
+}

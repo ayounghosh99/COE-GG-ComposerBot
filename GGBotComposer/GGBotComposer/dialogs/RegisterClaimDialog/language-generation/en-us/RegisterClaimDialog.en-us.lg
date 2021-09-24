@@ -1,0 +1,10 @@
+[import](common.lg)
+
+# SendActivity_QdfYTX()
+[Activity
+    Text = ${SendActivity_QdfYTX_text()}
+]
+
+# SendActivity_QdfYTX_text()
+- What is the Vehicle Registration Number?
+- To register a claim, we need a few more input from you. Please enter the Vehicle Registration Number

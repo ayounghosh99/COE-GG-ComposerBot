@@ -1,0 +1,38 @@
+{
+  "$kind": "Microsoft.AdaptiveDialog",
+  "$designer": {
+    "id": "0sjVwv",
+    "name": "ClaimAssistanceDialog",
+    "comment": ""
+  },
+  "autoEndDialog": true,
+  "defaultResultProperty": "dialog.result",
+  "triggers": [
+    {
+      "$kind": "Microsoft.OnBeginDialog",
+      "$designer": {
+        "name": "BeginDialog",
+        "description": "",
+        "id": "JdybFW"
+      },
+      "actions": [
+        {
+          "$kind": "Microsoft.SendActivity",
+          "$designer": {
+            "id": "uitfPy"
+          },
+          "activity": "${SendActivity_uitfPy()}"
+        },
+        {
+          "$kind": "Microsoft.EndDialog",
+          "$designer": {
+            "id": "gg2pPT"
+          }
+        }
+      ]
+    }
+  ],
+  "generator": "ClaimAssistanceDialog.lg",
+  "recognizer": "ClaimAssistanceDialog.lu.qna",
+  "id": "ClaimAssistanceDialog"
+}

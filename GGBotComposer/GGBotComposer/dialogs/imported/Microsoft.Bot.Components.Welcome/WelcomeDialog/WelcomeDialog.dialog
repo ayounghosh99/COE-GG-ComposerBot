@@ -1,0 +1,67 @@
+{
+  "$kind": "Microsoft.AdaptiveDialog",
+  "$designer": {
+    "$designer": {
+      "name": "WelcomeDialog",
+      "description": "Greets new and returning users",
+      "id": "8pOkoq"
+    },
+    "name": "WelcomeDialog"
+  },
+  "autoEndDialog": true,
+  "defaultResultProperty": "dialog.result",
+  "triggers": [
+    {
+      "$kind": "Microsoft.OnBeginDialog",
+      "$designer": {
+        "id": "tcqJ5M",
+        "name": "BeginDialog"
+      },
+      "actions": [
+        {
+          "$kind": "Microsoft.Telephony.StartRecording",
+          "$designer": {
+            "id": "Bl9nGi"
+          },
+          "allowInterruptions": false
+        },
+        {
+          "$kind": "Microsoft.SendActivity",
+          "$designer": {
+            "id": "iQghyt"
+          },
+          "activity": "${SendActivity_iQghyt()}"
+        },
+        {
+          "$kind": "Microsoft.SendActivity",
+          "$designer": {
+            "id": "zC4CnO"
+          },
+          "activity": "${SendActivity_zC4CnO()}"
+        },
+        {
+          "$kind": "Microsoft.BeginDialog",
+          "$designer": {
+            "id": "U8KWJD"
+          },
+          "activityProcessed": true,
+          "dialog": "ClaimAssistanceDialog"
+        },
+        {
+          "$kind": "Microsoft.EndDialog",
+          "$designer": {
+            "id": "LtISkR"
+          }
+        }
+      ]
+    }
+  ],
+  "$schema": "https://raw.githubusercontent.com/microsoft/BotFramework-Composer/stable/Composer/packages/server/schemas/sdk.schema",
+  "generator": "WelcomeDialog.lg",
+  "id": "WelcomeDialog",
+  "recognizer": {
+    "$kind": "Microsoft.RegexRecognizer",
+    "intents": []
+  },
+  "$Imported": "af4f041fedef6fc782dfdbdc10c87be3"
+}

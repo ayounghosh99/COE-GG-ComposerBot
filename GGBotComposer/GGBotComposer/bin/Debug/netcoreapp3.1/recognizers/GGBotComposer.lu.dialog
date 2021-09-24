@@ -1,0 +1,8 @@
+{
+  "$kind": "Microsoft.MultiLanguageRecognizer",
+  "id": "LUIS_GGBotComposer",
+  "recognizers": {
+    "en-us": "GGBotComposer.en-us.lu",
+    "": "GGBotComposer.en-us.lu"
+  }
+}
