@@ -43,10 +43,84 @@
           "activity": "${SendActivity_UjBQFY()}"
         },
         {
-          "$kind": "Microsoft.EndDialog",
+          "$kind": "Microsoft.HttpRequest",
           "$designer": {
-            "id": "yZ6uud"
-          }
+            "id": "52BV0W",
+            "comment": "This API is just for testing HTTP Get Request and getting weather data. This shall be replaced by th actual API for getting claim details once we have it."
+          },
+          "method": "GET",
+          "url": "http://api.openweathermap.org/data/2.5/weather?zip=${dialog.claimNumber},us&appid=3d8c02d77424926dfc96ece2e5e40636",
+          "resultProperty": "dialog.api_response",
+          "responseType": "json"
+        },
+        {
+          "$kind": "Microsoft.IfCondition",
+          "$designer": {
+            "id": "cKmoyR"
+          },
+          "condition": "=dialog.api_response.statusCode == 200",
+          "actions": [
+            {
+              "$kind": "Microsoft.SetProperties",
+              "$designer": {
+                "id": "OTuR3u"
+              },
+              "assignments": [
+                {
+                  "property": "dialog.weather",
+                  "value": "=dialog.api_response.content.weather[0].description"
+                },
+                {
+                  "property": "dialog.icon",
+                  "value": "=dialog.api_response.content.weather[0].icon"
+                },
+                {
+                  "property": "dialog.city",
+                  "value": "dialog.api_response.content.name"
+                },
+                {
+                  "property": "dialog.country",
+                  "value": "=dialog.api_response.content.sys.country"
+                },
+                {
+                  "property": "dialog.kelvin",
+                  "value": "=dialog.api_response.content.main.temp"
+                },
+                {
+                  "property": "dialog.celsius",
+                  "value": "=round(dialog.kelvin-273.15)"
+                },
+                {
+                  "property": "dialog.fahrenheit",
+                  "value": "=round((dialog.celsius * 9/5) + 32)"
+                }
+              ]
+            },
+            {
+              "$kind": "Microsoft.SendActivity",
+              "$designer": {
+                "id": "92mJzM"
+              },
+              "activity": "${SendActivity_92mJzM()}"
+            }
+          ],
+          "elseActions": [
+            {
+              "$kind": "Microsoft.SendActivity",
+              "$designer": {
+                "id": "S9ojv6"
+              },
+              "activity": "${SendActivity_S9ojv6()}"
+            }
+          ]
+        },
+        {
+          "$kind": "Microsoft.BeginDialog",
+          "$designer": {
+            "id": "jKdyw5"
+          },
+          "activityProcessed": true,
+          "dialog": "ClaimAssistanceDialog"
         }
       ]
     }

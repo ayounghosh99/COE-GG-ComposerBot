@@ -32,3 +32,17 @@ Please give me a moment while i fetch you the status of claim ${dialog.claimNumb
 
 # TextInput_InvalidPrompt_TvTpZC_text()
 - Sorry, '${this.value}' is not valid.  I'm looking for a 5 digit number as Claim Number. Please specify a 5 digit Claim Number in the format 12345.
+# SendActivity_92mJzM()
+[Activity
+    Text = ${SendActivity_92mJzM_text()}
+]
+
+# SendActivity_92mJzM_text()
+- The weather is ${dialog.fahrenheit}F or ${dialog.celsius}C and ${dialog.weather}.
+# SendActivity_S9ojv6()
+[Activity
+    Text = ${SendActivity_S9ojv6_text()}
+]
+
+# SendActivity_S9ojv6_text()
+- Something went wrong: ${dialog.api_response.content.message}.

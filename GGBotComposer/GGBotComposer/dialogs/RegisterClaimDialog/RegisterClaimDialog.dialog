@@ -23,12 +23,6 @@
             "id": "QdfYTX"
           },
           "activity": "${SendActivity_QdfYTX()}"
-        },
-        {
-          "$kind": "Microsoft.EndDialog",
-          "$designer": {
-            "id": "xVK4y0"
-          }
         }
       ]
     }

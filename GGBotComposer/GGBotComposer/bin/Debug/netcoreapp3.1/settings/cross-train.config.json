@@ -2,7 +2,9 @@
   "GGBotComposer.en-us": {
     "rootDialog": true,
     "triggers": {
-      "RegisterClaim": ""
+      "RegisterClaim": [
+        "ClaimAssistanceDialog.en-us"
+      ]
     }
   }
 }

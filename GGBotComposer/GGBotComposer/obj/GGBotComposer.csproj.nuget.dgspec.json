@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Technovert_Work\\GGBotComposer\\GGBotComposer\\GGBotComposer.csproj": {}
+    "C:\\Technovert_Work\\COE-GG-ComposerBot\\GGBotComposer\\GGBotComposer\\GGBotComposer.csproj": {}
   },
   "projects": {
-    "C:\\Technovert_Work\\GGBotComposer\\GGBotComposer\\GGBotComposer.csproj": {
+    "C:\\Technovert_Work\\COE-GG-ComposerBot\\GGBotComposer\\GGBotComposer\\GGBotComposer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Technovert_Work\\GGBotComposer\\GGBotComposer\\GGBotComposer.csproj",
+        "projectUniqueName": "C:\\Technovert_Work\\COE-GG-ComposerBot\\GGBotComposer\\GGBotComposer\\GGBotComposer.csproj",
         "projectName": "GGBotComposer",
-        "projectPath": "C:\\Technovert_Work\\GGBotComposer\\GGBotComposer\\GGBotComposer.csproj",
+        "projectPath": "C:\\Technovert_Work\\COE-GG-ComposerBot\\GGBotComposer\\GGBotComposer\\GGBotComposer.csproj",
         "packagesPath": "C:\\Users\\ayoun.g\\.nuget\\packages\\",
-        "outputPath": "C:\\Technovert_Work\\GGBotComposer\\GGBotComposer\\obj\\",
+        "outputPath": "C:\\Technovert_Work\\COE-GG-ComposerBot\\GGBotComposer\\GGBotComposer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Technovert_Work\\GGBotComposer\\GGBotComposer\\NuGet.Config",
+          "C:\\Technovert_Work\\COE-GG-ComposerBot\\GGBotComposer\\GGBotComposer\\NuGet.Config",
           "C:\\Users\\ayoun.g\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],

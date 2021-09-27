@@ -133,6 +133,14 @@
               "activity": "${SendActivity_6OMf4S()}"
             }
           ]
+        },
+        {
+          "$kind": "Microsoft.BeginDialog",
+          "$designer": {
+            "id": "KPUGXc"
+          },
+          "activityProcessed": true,
+          "dialog": "ClaimAssistanceDialog"
         }
       ]
     },

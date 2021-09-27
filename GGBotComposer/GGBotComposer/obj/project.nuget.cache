@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "GvvnWtQtmU0WtlCr+hu6iDXt4J+qQA3wIzMnHq9woTP5G1WGRlk42Ahb8OB0SSVR/ODVkiebOi9Nka8rMOIawg==",
+  "dgSpecHash": "8hsAEtXMVr0/dvorhh17kRlv2eMKKIoznI5xExOaC/6q5SXGH5rXb1Fz36NVQsklJtcf6qwgjVK6FvyTLQ2oHQ==",
   "success": true,
-  "projectFilePath": "C:\\Technovert_Work\\GGBotComposer\\GGBotComposer\\GGBotComposer.csproj",
+  "projectFilePath": "C:\\Technovert_Work\\COE-GG-ComposerBot\\GGBotComposer\\GGBotComposer\\GGBotComposer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ayoun.g\\.nuget\\packages\\adaptiveexpressions\\4.14.1\\adaptiveexpressions.4.14.1.nupkg.sha512",
     "C:\\Users\\ayoun.g\\.nuget\\packages\\antlr4.runtime.standard\\4.8.0\\antlr4.runtime.standard.4.8.0.nupkg.sha512",
